@@ -12,7 +12,9 @@ var React = require('react');
 
 var Examples = (props) => {
   return (
-    <h3>Examples</h3>
+    <div className="container">
+      <h3>Examples</h3>
+    </div>
   )
 };
 

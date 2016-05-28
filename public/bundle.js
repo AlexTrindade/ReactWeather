@@ -26298,7 +26298,7 @@
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(1);
 
@@ -26314,9 +26314,13 @@
 
 	var Examples = function Examples(props) {
 	  return React.createElement(
-	    'h3',
-	    null,
-	    'Examples'
+	    "div",
+	    { className: "container" },
+	    React.createElement(
+	      "h3",
+	      null,
+	      "Examples"
+	    )
 	  );
 	};
 
