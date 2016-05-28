@@ -12,7 +12,9 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>About</h3>
+    <div className="container">
+      <h3>About</h3>
+    </div>
   )
 };
 
